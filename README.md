@@ -1,4 +1,4 @@
-# AI Dev Hub Mock MCP
+# ChatGPT 本地 MCP 演示
 
 一个用假数据演示 ChatGPT 网页如何调用本地 MCP 工具的最小服务。服务使用 Node.js 内置模块和 stdio，支持 MCP `2024-11-05`。Windows x64 上已验证官方 Secure MCP Tunnel 能调用 `hub_get_capabilities` 并收到 `simulated: true`。
 

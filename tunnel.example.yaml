@@ -9,7 +9,7 @@ control_plane:
 mcp:
   commands:
     - channel: main
-      command: '"C:/path/to/node.exe" "C:/path/to/ai-dev-hub-mock/src/stdio-server.mjs"'
+      command: '"C:/path/to/node.exe" "C:/path/to/chatgpt-local-mcp-demo/src/stdio-server.mjs"'
   stdio_failure_policy: exit
 health:
   listen_addr: 127.0.0.1:18786
